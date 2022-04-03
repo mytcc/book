@@ -25,7 +25,7 @@ title: 文章存档
           <h3 style="text-align:left;">{{ post.date | date: '%Y-%m' }}</h3>
           {% endif %}
           {% endunless %}
-          <p><a href="{{ site.baseurl }}{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a> - {% if post.date and post.date != "" %}{{ post.date | date: "%Y-%m-%d" }}{%endif%}</p>
+          <p style="margin: 6px 0;"><a style="font-size: 16px;" href="{{ site.baseurl }}{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a> - {% if post.date and post.date != "" %}{{ post.date | date: "%Y-%m-%d" }}{%endif%}</p>
           {% endfor %}
       </ul>
     <h3>最旧的文章</h3>
