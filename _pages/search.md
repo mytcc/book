@@ -5,7 +5,7 @@ permalink: /search/
 ---
 
 <div id="search-container">
-    <input type="text" id="search-input" placeholder="搜索文章">
+    <input type="text" id="search-input" placeholder="搜索文章标题">
     <ul id="results-container"></ul>
 </div>
 
