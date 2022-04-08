@@ -483,7 +483,7 @@ bootstrap 配置文件有以下几个应用场景。
 
 Spring Initializr是启动 Spring Boot Projects 的一个很好的工具。
 
-![](https://gitee.com/gsjqwyl/images_repo/raw/master/2021-3-11/20210329102421.png)
+![init](/images/2022/04/init.png)
 
 就像上图中所展示的一样，我们需要做一下几步：
 
@@ -744,7 +744,7 @@ Spring MVC 提供了一种分离式的方法来开发 Web 应用。通过运用�
 
 Spring 和 SpringMVC 的问题在于需要配置大量的参数。
 
-![](https://gitee.com/gsjqwyl/images_repo/raw/master/2021-3-11/20210329101122.png)
+![param](/images/2022/04/param.png)
 
 Spring Boot 通过一个自动配置和启动的项来目解决这个问题。为了更快的构建产品就绪应用程序，Spring Boot 提供了一些非功能性特征。
 
@@ -980,8 +980,7 @@ Spring Data 的使命是在保证底层数据存储特殊性的前提下，为�
 为了让它更简单一些，Spring Data 提供了不受底层数据源限制的 Abstractions 接口。
 
 下面来举一个例子:
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/KLTiaLuJImELSYlz43K7eJXnVZcbNPt3hLHwyT4Fq4J0QDyEib2HKs8RXLibTphzu4LQfUvId9fHwgEOLuccv6eew/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![p1](/images/2022/04/p1.png)
 
 你可以定义一简单的库，用来插入，更新，删除和检索代办事项，而不需要编写大量的代码。
 
@@ -993,7 +992,7 @@ Spring Data TEST 可以用来发布关于 Spring 数据库的 HATEOAS RESTful �
 
 下面是一个使用 JPA 的例子:
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/KLTiaLuJImELSYlz43K7eJXnVZcbNPt3hkicW88KlcduuBRPcmicEUrw3icd8Xt6zbbK7CcsP5V9oj3ib992iaiakEJCA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![p2](/images/2022/04/p2.png)
 
 不需要写太多代码，我们可以发布关于 Spring 数据库的 RESTful API。
 
@@ -1009,12 +1008,11 @@ Request Content
 
 
 代码如下：
-
-![图片](https://mmbiz.qpic.cn/mmbiz_png/KLTiaLuJImELSYlz43K7eJXnVZcbNPt3hTST5jZiaZrRUffjOVm693ptDSJnoPeHuRr07nHyE9VewExrO2uvzppA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![p3](/images/2022/04/p3.png)
 
 响应内容：
 
-![图片](https://mmbiz.qpic.cn/mmbiz_png/KLTiaLuJImELSYlz43K7eJXnVZcbNPt3hhph3vaFppIXed4B9QChMtYOuNn0QH8cicD7zaicW9AfK1l7VljxuK3Sg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![p5](/images/2022/04/p5.png)
 
 响应包含新创建资源的 href。
 
