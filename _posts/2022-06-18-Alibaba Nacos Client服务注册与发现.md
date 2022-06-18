@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  文章模板与Markdown语法
+title:  Alibaba Nacos Client服务注册与发现
 categories: [markdown]
-excerpt: 新建文章时或查看Markdown语法时可以参考此模板.
+excerpt: Alibaba Nacos 提供了服务注册和发现的功能，Client服务如何注册与发现呢？.
 ---
-#### IDEA激活
+#### 一级标题 (h4)
 
-激活码网址：https://idea.medeming.com/idea
+06NUSHPJJJ-eyJsaWNlbnNlSWQiOiIwNk5VU0hQSkpKIiwibGljZW5zZWVOYW1lIjoi5
 
 ## 二级标题 (h2)
 
