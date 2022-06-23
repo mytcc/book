@@ -40,7 +40,7 @@ Tomcat目录：
 
 ![image-20220318102446699](/images/2022/06/image-20220318102446699.png)
 
-
+java.util.logging.ConsoleHandler.encoding = GBK
 
 如果一闪而过则检查jdk的环境变量配置。启动成功后，在浏览器中访问 http://localhost:8080/flowable-ui, 默认的账号密码是 admin/test
 
